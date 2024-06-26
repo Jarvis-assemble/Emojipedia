@@ -1,5 +1,5 @@
 import emojipedia from "./emojipedia";
-//substring(0, 99);
+//substring(0, 100);
 function truncate(obj) {
   return obj.meaning.substring(0, 100); //(included,excluded)
 }
